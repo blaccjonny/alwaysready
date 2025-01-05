@@ -1,15 +1,18 @@
-body{
-    background-color: lightcyan;
+body, html{
+    background-color: whitesmoke;
+    height: 100%;
+
 }
 
+*{
+    box-sizing: border-box;
+}
+
+
 header{
-    background-color: black;
-    color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+
     text-align: center;
-    text-shadow: 1px 1px 0px mediumturquoise;
+    
 }
 
 sub{
@@ -22,13 +25,14 @@ sub{
     margin: auto;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
   .button {
     border: none;
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: red;
+    background-color: black;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -41,7 +45,7 @@ sub{
   }
 
   a{
-    color: #000;
+    color: lightgoldenrodyellow;
     font-family: Arial, Helvetica, sans-serif;
     
   }
