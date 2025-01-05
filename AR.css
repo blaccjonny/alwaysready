@@ -8,6 +8,9 @@ body, html{
     box-sizing: border-box;
 }
 
+.img-stamp{
+    width:100%;
+}
 
 header{
   color: #000;
