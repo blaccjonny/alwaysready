@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: lightcyan;
 }
 
 header{
@@ -22,14 +22,8 @@ sub{
     margin: auto;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-  .card button {
+
+  .button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -52,7 +46,7 @@ sub{
     
   }
   
-  footer{
+footer{
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
