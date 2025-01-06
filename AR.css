@@ -11,6 +11,22 @@ body, html{
     box-sizing: border-box;
 }
 
+.topnav{
+  background-color: yellowgreen;
+  overflow: hidden;
+}
+
+button{
+  color: whitesmoke;
+  background-color: black;
+  font-family: impact;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: mediumpurple;
+}
 
 header{
   color: #000;
