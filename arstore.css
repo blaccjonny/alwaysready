@@ -4,3 +4,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.topnav{
+    background-color: brown;
+    overflow: hidden;
+}
+ 
+button{
+    color: whitesmoke;
+    background-color: black;
+    font-family: impact;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: mediumpurple;
+}
