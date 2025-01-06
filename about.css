@@ -1,0 +1,33 @@
+body{
+    background-color: brown;
+    background-image: url(metgala.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: Impact;
+    font-size: 170px;
+    font-weight: 200;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 22px 22px 0px yellowgreen;
+}
+
+.topnav{
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+ 
+button{
+    color: whitesmoke;
+    background-color: black;
+    font-family: impact;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: mediumpurple;
+}
