@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: yellowgreen;
+    background-color: lemonchiffon;
     background-image: url(mrbean.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,3 +25,18 @@ button{
 button:hover{
     background-color: mediumpurple;
 }
+ h2{
+    color: #ffc0ef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+
+ }
+
+ footer{
+    color: #ffc0ef;
+    text-align: center;
+    font-family: impact;
+    font-size: 12px;
+ }
