@@ -1,19 +1,11 @@
-body{
-    background-color: brown;
-    background-image: url(metgala.png);
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    box-sizing: border-box;
 }
 
-p{
-    font-family: Impact;
-    font-size: 170px;
-    font-weight: 200;
-    color: whitesmoke;
-    text-align: center;
-    text-shadow: 22px 22px 0px yellowgreen;
+body{
+    background-color: brown;
 }
+
 
 .topnav{
     background-color: yellowgreen;
@@ -30,4 +22,76 @@ button{
 
 button:hover{
     background-color: mediumpurple;
+}
+
+.header{
+    color: brown;
+    padding: 2px;
+    font-size: 40px;
+    font-family: Impact;
+    text-align: center;
+    background: whitesmoke;
+    background-image: url(ar-mj.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-color: brown;
+    background-size: cover;
+    padding: 15px;
+    font-family: Impact;
+    font-size: 24px;
+}
+
+h4{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: oblique;
+    text-shadow: 3px 3px 8px yellowgreen;
+}
+
+h5{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 1px 1px 5px black;
+}
+
+p{
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-shadow: 1px 1px 7px black;
+    text-align: center;
+}
+
+i{
+    color: black;
+    background-color: yellowgreen;
+}
+
+.row{
+    text-align: center;
+    background-image: url(ar-mj.png);
+    background-repeat: round;
+    background-size: cover;
+}
+
+footer{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 1px 8px yellowgreen;
 }
