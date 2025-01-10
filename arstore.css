@@ -3,40 +3,47 @@
 }
 
 body{
-    background-color: lemonchiffon;
-    background-image: url(mrbean.png);
+    background-color: mediumpurple;
+    background-image: url(1950swoman.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .topnav{
-    background-color: brown;
+    background-color: yellowgreen;
+    background-image: url(mrbean.png);
+    background-size: repeat-x;
+    background-position: center;
     overflow: hidden;
+    padding: 3px;
 }
- 
+
 button{
     color: whitesmoke;
     background-color: black;
     font-family: impact;
     font-weight: lighter;
     font-size: 20px;
+    padding: 5px;
+    border-radius: 14px;
 }
 
 button:hover{
     background-color: mediumpurple;
 }
  h2{
-    color: #ffc0ef;
+    color: yellowgreen;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     font-weight: lighter;
     text-align: center;
-
+    text-shadow: 1px 1px 4px black;
  }
 
  footer{
-    color: #ffc0ef;
+    color: yellowgreen;
     text-align: center;
     font-family: impact;
-    font-size: 12px;
+    font-size: 18px;
+    text-shadow: 1px 1px 4px black;
  }
