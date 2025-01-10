@@ -3,13 +3,17 @@
 }
 
 body{
-    background-color: brown;
+    background-color: mediumpurple;
 }
 
 
 .topnav{
     background-color: yellowgreen;
+    background-image: url(mrbean.png);
+    background-size: repeat-x;
+    background-position: center;
     overflow: hidden;
+    padding: 3px;
 }
  
 button{
@@ -18,6 +22,9 @@ button{
     font-family: impact;
     font-weight: lighter;
     font-size: 20px;
+    padding: 3px;
+    border-radius: 14px;
+    cursor: pointer;
 }
 
 button:hover{
@@ -25,7 +32,8 @@ button:hover{
 }
 
 .header{
-    color: brown;
+    color: whitesmoke;
+    text-shadow: 1px 10px 0px mediumpurple;
     padding: 2px;
     font-size: 40px;
     font-family: Impact;
@@ -35,44 +43,40 @@ button:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 8px;
 }
 
+.header:hover{
+    color: lemonchiffon;
+    cursor: pointer;
+}
 .card{
-    background-color: brown;
+    background-color: black;
     background-size: cover;
     padding: 15px;
     font-family: Impact;
     font-size: 24px;
 }
 
-h4{
-    color: cornsilk;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 24px;
-    font-style: oblique;
-    text-shadow: 3px 3px 8px yellowgreen;
-}
-
-h5{
-    color: cornsilk;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: lighter;
-    font-style: italic;
-    text-align: left;
-    text-shadow: 1px 1px 5px black;
-}
 
 p{
     color: cornsilk;
+    background-color: black;
+    background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-weight: lighter;
     font-variant: small-caps;
     font-weight: bolder;
+    padding: 20px;
     text-shadow: 1px 1px 7px black;
     text-align: center;
+    border-radius: 8px;
+}
+
+p:hover{
+    background-color: mediumpurple;
+    cursor: pointer;
 }
 
 i{
@@ -85,6 +89,7 @@ i{
     background-image: url(ar-mj.png);
     background-repeat: round;
     background-size: cover;
+    border-radius: 8px;
 }
 
 footer{
