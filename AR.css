@@ -1,9 +1,10 @@
 body, html{
-    background-color: brown;
-    background-image: url(mrbean.png);
+    background-color: mediumpurple;
+    background-image: url(HANDS.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-position: center;
+    border-color: black;
 
 }
 
@@ -14,7 +15,12 @@ body, html{
 .topnav{
   background-color: yellowgreen;
   overflow: hidden;
+  padding: 5px;
+  background-image: url(mrbean.png);
+  background-repeat: repeat-x;
+  background-position: center;
 }
+
 
 button{
   color: whitesmoke;
@@ -22,6 +28,9 @@ button{
   font-family: impact;
   font-weight: lighter;
   font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 14px;
 }
 
 button:hover{
@@ -29,13 +38,16 @@ button:hover{
 }
 
 header{
-  color: #000;
+  color: lemonchiffon;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 45px;
+  font-size: 55px;
   text-align: center;
-  text-shadow: 2px 2px 0px blueviolet;
+  text-shadow: 1px 4px 6px yellowgreen;
+  padding-top: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 200px;
 }
-
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -55,17 +67,12 @@ header{
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.9;
-    color: #000;
+    border-radius: 14px;
   }
 
   a{
     color: lightgoldenrodyellow;
     font-family: Arial, Helvetica, sans-serif;
-    
   }
   
 footer{
@@ -74,4 +81,6 @@ footer{
     font-size: 12px;
     font-weight: lighter;
     text-align: center;
+    text-shadow: 3px 1px 6px whitesmoke;
+    padding: 20px;
   }
